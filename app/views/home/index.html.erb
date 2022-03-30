@@ -20,8 +20,21 @@
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success me-3" type="submit">Search</button>
       </form>
-    <button class="btn btn-outline-success me-3" type="submit">Log in</button>
-    <button class="btn btn-outline-success me-3" type="submit">Sign Up</button>
+    <!--<button class="btn btn-outline-success me-3" type="submit">Log in</button>
+    <button class="btn btn-outline-success me-3" type="submit">Sign Up</button>-->
+
+    <% if user_signed_in? %>
+
+        <%= link_to "Settings", edit_user_registration_path, class: "btn btn-outline-success me-3" %>
+        <%= link_to "Sign out", destroy_user_session_path, method: :delete, class: "btn btn-outline-success me-3" %>
+
+        <% else %>
+
+        <%= link_to "Sign in", new_user_session_path, class: "btn btn-outline-success me-3", style:"font-weight: bold;"%>
+        <%= link_to "Sign up", new_user_registration_path, class: "btn btn-outline-success me-3", style:"" %>
+
+      <% end %>
+
     </div>
   </div>
 </nav>
