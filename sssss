@@ -1,0 +1,408 @@
+=> [[31m[1;31m"[0m[31mitems[1;31m"[0m[31m[0m,
+ [{[31m[1;31m"[0m[31mkind[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mbooks#volume[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mid[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m2wEAAAAAMBAJ[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31metag[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mbgXNQWsKWU4[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mselfLink[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttps://www.googleapis.com/books/v1/volumes/2wEAAAAAMBAJ[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mvolumeInfo[1;31m"[0m[31m[0m=>
+    {[31m[1;31m"[0m[31mtitle[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mMaximum PC[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mpublishedDate[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m2003-10[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mdescription[1;31m"[0m[31m[0m=>
+      [31m[1;31m"[0m[31mMaximum PC is the magazine that every computer fanatic, PC gamer or content creator must read. Each and every issue is packed with punishing product reviews, insightful and innovative how-to stories and the illuminating technical articles that enthusiasts crave.[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mreadingModes[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31mtext[1;31m"[0m[31m[0m=>[1;36mfalse[0m, [31m[1;31m"[0m[31mimage[1;31m"[0m[31m[0m=>[1;36mtrue[0m},
+     [31m[1;31m"[0m[31mpageCount[1;31m"[0m[31m[0m=>[1;34m116[0m,
+     [31m[1;31m"[0m[31mprintType[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mMAGAZINE[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31maverageRating[1;31m"[0m[31m[0m=>[1;34m1[0m,
+     [31m[1;31m"[0m[31mratingsCount[1;31m"[0m[31m[0m=>[1;34m1[0m,
+     [31m[1;31m"[0m[31mmaturityRating[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mNOT_MATURE[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mallowAnonLogging[1;31m"[0m[31m[0m=>[1;36mfalse[0m,
+     [31m[1;31m"[0m[31mcontentVersion[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m0.1.2.0.preview.1[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mpanelizationSummary[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31mcontainsEpubBubbles[1;31m"[0m[31m[0m=>[1;36mfalse[0m, [31m[1;31m"[0m[31mcontainsImageBubbles[1;31m"[0m[31m[0m=>[1;36mfalse[0m},
+     [31m[1;31m"[0m[31mimageLinks[1;31m"[0m[31m[0m=>
+      {[31m[1;31m"[0m[31msmallThumbnail[1;31m"[0m[31m[0m=>
+        [31m[1;31m"[0m[31mhttp://books.google.com/books/content?id=2wEAAAAAMBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api[1;31m"[0m[31m[0m,
+       [31m[1;31m"[0m[31mthumbnail[1;31m"[0m[31m[0m=>
+        [31m[1;31m"[0m[31mhttp://books.google.com/books/content?id=2wEAAAAAMBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api[1;31m"[0m[31m[0m},
+     [31m[1;31m"[0m[31mlanguage[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31men[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mpreviewLink[1;31m"[0m[31m[0m=>
+      [31m[1;31m"[0m[31mhttp://books.google.com/books?id=2wEAAAAAMBAJ&printsec=frontcover&dq=book&hl=&cd=1&source=gbs_api[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31minfoLink[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttp://books.google.com/books?id=2wEAAAAAMBAJ&dq=book&hl=&source=gbs_api[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mcanonicalVolumeLink[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttps://books.google.com/books/about/Maximum_PC.html?hl=&id=2wEAAAAAMBAJ[1;31m"[0m[31m[0m},
+   [31m[1;31m"[0m[31msaleInfo[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31mcountry[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mSI[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31msaleability[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mNOT_FOR_SALE[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31misEbook[1;31m"[0m[31m[0m=>[1;36mfalse[0m},
+   [31m[1;31m"[0m[31maccessInfo[1;31m"[0m[31m[0m=>
+    {[31m[1;31m"[0m[31mcountry[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mSI[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mviewability[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mALL_PAGES[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31membeddable[1;31m"[0m[31m[0m=>[1;36mtrue[0m,
+     [31m[1;31m"[0m[31mpublicDomain[1;31m"[0m[31m[0m=>[1;36mfalse[0m,
+     [31m[1;31m"[0m[31mtextToSpeechPermission[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mALLOWED[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mepub[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31misAvailable[1;31m"[0m[31m[0m=>[1;36mfalse[0m},
+     [31m[1;31m"[0m[31mpdf[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31misAvailable[1;31m"[0m[31m[0m=>[1;36mfalse[0m},
+     [31m[1;31m"[0m[31mwebReaderLink[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttp://play.google.com/books/reader?id=2wEAAAAAMBAJ&hl=&printsec=frontcover&source=gbs_api[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31maccessViewStatus[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mSAMPLE[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mquoteSharingAllowed[1;31m"[0m[31m[0m=>[1;36mfalse[0m},
+   [31m[1;31m"[0m[31msearchInfo[1;31m"[0m[31m[0m=>
+    {[31m[1;31m"[0m[31mtextSnippet[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mMaximum PC is the magazine that every computer fanatic, PC gamer or content creator must read.[1;31m"[0m[31m[0m}},
+  {[31m[1;31m"[0m[31mkind[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mbooks#volume[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mid[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m49gDAAAAMBAJ[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31metag[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m/SBo5JlWTm4[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mselfLink[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttps://www.googleapis.com/books/v1/volumes/49gDAAAAMBAJ[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mvolumeInfo[1;31m"[0m[31m[0m=>
+    {[31m[1;31m"[0m[31mtitle[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mPopular Mechanics[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mpublishedDate[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m1951-09[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mdescription[1;31m"[0m[31m[0m=>
+      [31m[1;31m"[0m[31mPopular Mechanics inspires, instructs and influences readers to help them master the modern world. Whether it’s practical DIY home-improvement tips, gadgets and digital technology, information on the newest cars or the latest breakthroughs in science -- PM is the ultimate guide to our high-tech lifestyle.[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mreadingModes[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31mtext[1;31m"[0m[31m[0m=>[1;36mfalse[0m, [31m[1;31m"[0m[31mimage[1;31m"[0m[31m[0m=>[1;36mtrue[0m},
+     [31m[1;31m"[0m[31mpageCount[1;31m"[0m[31m[0m=>[1;34m304[0m,
+     [31m[1;31m"[0m[31mprintType[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mMAGAZINE[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31maverageRating[1;31m"[0m[31m[0m=>[1;34m5[0m,
+     [31m[1;31m"[0m[31mratingsCount[1;31m"[0m[31m[0m=>[1;34m1[0m,
+     [31m[1;31m"[0m[31mmaturityRating[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mNOT_MATURE[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mallowAnonLogging[1;31m"[0m[31m[0m=>[1;36mfalse[0m,
+     [31m[1;31m"[0m[31mcontentVersion[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m0.0.1.0.preview.1[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mimageLinks[1;31m"[0m[31m[0m=>
+      {[31m[1;31m"[0m[31msmallThumbnail[1;31m"[0m[31m[0m=>
+        [31m[1;31m"[0m[31mhttp://books.google.com/books/content?id=49gDAAAAMBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api[1;31m"[0m[31m[0m,
+       [31m[1;31m"[0m[31mthumbnail[1;31m"[0m[31m[0m=>
+        [31m[1;31m"[0m[31mhttp://books.google.com/books/content?id=49gDAAAAMBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api[1;31m"[0m[31m[0m},
+     [31m[1;31m"[0m[31mlanguage[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31men[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mpreviewLink[1;31m"[0m[31m[0m=>
+      [31m[1;31m"[0m[31mhttp://books.google.com/books?id=49gDAAAAMBAJ&printsec=frontcover&dq=book&hl=&cd=2&source=gbs_api[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31minfoLink[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttp://books.google.com/books?id=49gDAAAAMBAJ&dq=book&hl=&source=gbs_api[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mcanonicalVolumeLink[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttps://books.google.com/books/about/Popular_Mechanics.html?hl=&id=49gDAAAAMBAJ[1;31m"[0m[31m[0m},
+   [31m[1;31m"[0m[31msaleInfo[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31mcountry[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mSI[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31msaleability[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mNOT_FOR_SALE[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31misEbook[1;31m"[0m[31m[0m=>[1;36mfalse[0m},
+   [31m[1;31m"[0m[31maccessInfo[1;31m"[0m[31m[0m=>
+    {[31m[1;31m"[0m[31mcountry[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mSI[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mviewability[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mALL_PAGES[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31membeddable[1;31m"[0m[31m[0m=>[1;36mtrue[0m,
+     [31m[1;31m"[0m[31mpublicDomain[1;31m"[0m[31m[0m=>[1;36mfalse[0m,
+     [31m[1;31m"[0m[31mtextToSpeechPermission[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mALLOWED[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mepub[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31misAvailable[1;31m"[0m[31m[0m=>[1;36mfalse[0m},
+     [31m[1;31m"[0m[31mpdf[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31misAvailable[1;31m"[0m[31m[0m=>[1;36mfalse[0m},
+     [31m[1;31m"[0m[31mwebReaderLink[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttp://play.google.com/books/reader?id=49gDAAAAMBAJ&hl=&printsec=frontcover&source=gbs_api[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31maccessViewStatus[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mSAMPLE[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mquoteSharingAllowed[1;31m"[0m[31m[0m=>[1;36mfalse[0m},
+   [31m[1;31m"[0m[31msearchInfo[1;31m"[0m[31m[0m=>
+    {[31m[1;31m"[0m[31mtextSnippet[1;31m"[0m[31m[0m=>
+      [31m[1;31m"[0m[31mWhether it’s practical DIY home-improvement tips, gadgets and digital technology, information on the newest cars or the latest breakthroughs in science -- PM is the ultimate guide to our high-tech lifestyle.[1;31m"[0m[31m[0m}},
+  {[31m[1;31m"[0m[31mkind[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mbooks#volume[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mid[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mDb4DAAAAMBAJ[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31metag[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31myKWi27N8ZFo[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mselfLink[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttps://www.googleapis.com/books/v1/volumes/Db4DAAAAMBAJ[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mvolumeInfo[1;31m"[0m[31m[0m=>
+    {[31m[1;31m"[0m[31mtitle[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mJet[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mpublishedDate[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m2003-08-11[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mdescription[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mThe weekly source of African American political and entertainment news.[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mreadingModes[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31mtext[1;31m"[0m[31m[0m=>[1;36mfalse[0m, [31m[1;31m"[0m[31mimage[1;31m"[0m[31m[0m=>[1;36mtrue[0m},
+     [31m[1;31m"[0m[31mpageCount[1;31m"[0m[31m[0m=>[1;34m64[0m,
+     [31m[1;31m"[0m[31mprintType[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mMAGAZINE[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mmaturityRating[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mNOT_MATURE[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mallowAnonLogging[1;31m"[0m[31m[0m=>[1;36mfalse[0m,
+     [31m[1;31m"[0m[31mcontentVersion[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m0.0.2.0.preview.1[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mpanelizationSummary[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31mcontainsEpubBubbles[1;31m"[0m[31m[0m=>[1;36mfalse[0m, [31m[1;31m"[0m[31mcontainsImageBubbles[1;31m"[0m[31m[0m=>[1;36mfalse[0m},
+     [31m[1;31m"[0m[31mimageLinks[1;31m"[0m[31m[0m=>
+      {[31m[1;31m"[0m[31msmallThumbnail[1;31m"[0m[31m[0m=>
+        [31m[1;31m"[0m[31mhttp://books.google.com/books/content?id=Db4DAAAAMBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api[1;31m"[0m[31m[0m,
+       [31m[1;31m"[0m[31mthumbnail[1;31m"[0m[31m[0m=>
+        [31m[1;31m"[0m[31mhttp://books.google.com/books/content?id=Db4DAAAAMBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api[1;31m"[0m[31m[0m},
+     [31m[1;31m"[0m[31mlanguage[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31men[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mpreviewLink[1;31m"[0m[31m[0m=>
+      [31m[1;31m"[0m[31mhttp://books.google.com/books?id=Db4DAAAAMBAJ&printsec=frontcover&dq=book&hl=&cd=3&source=gbs_api[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31minfoLink[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttp://books.google.com/books?id=Db4DAAAAMBAJ&dq=book&hl=&source=gbs_api[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mcanonicalVolumeLink[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttps://books.google.com/books/about/Jet.html?hl=&id=Db4DAAAAMBAJ[1;31m"[0m[31m[0m},
+   [31m[1;31m"[0m[31msaleInfo[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31mcountry[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mSI[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31msaleability[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mNOT_FOR_SALE[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31misEbook[1;31m"[0m[31m[0m=>[1;36mfalse[0m},
+   [31m[1;31m"[0m[31maccessInfo[1;31m"[0m[31m[0m=>
+    {[31m[1;31m"[0m[31mcountry[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mSI[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mviewability[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mALL_PAGES[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31membeddable[1;31m"[0m[31m[0m=>[1;36mtrue[0m,
+     [31m[1;31m"[0m[31mpublicDomain[1;31m"[0m[31m[0m=>[1;36mfalse[0m,
+     [31m[1;31m"[0m[31mtextToSpeechPermission[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mALLOWED[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mepub[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31misAvailable[1;31m"[0m[31m[0m=>[1;36mfalse[0m},
+     [31m[1;31m"[0m[31mpdf[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31misAvailable[1;31m"[0m[31m[0m=>[1;36mfalse[0m},
+     [31m[1;31m"[0m[31mwebReaderLink[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttp://play.google.com/books/reader?id=Db4DAAAAMBAJ&hl=&printsec=frontcover&source=gbs_api[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31maccessViewStatus[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mSAMPLE[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mquoteSharingAllowed[1;31m"[0m[31m[0m=>[1;36mfalse[0m},
+   [31m[1;31m"[0m[31msearchInfo[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31mtextSnippet[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mThe weekly source of African American political and entertainment news.[1;31m"[0m[31m[0m}},
+  {[31m[1;31m"[0m[31mkind[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mbooks#volume[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mid[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mPtMDAAAAMBAJ[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31metag[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mI6PqhWsHtlI[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mselfLink[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttps://www.googleapis.com/books/v1/volumes/PtMDAAAAMBAJ[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mvolumeInfo[1;31m"[0m[31m[0m=>
+    {[31m[1;31m"[0m[31mtitle[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mEbony[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mpublishedDate[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m2008-10[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mdescription[1;31m"[0m[31m[0m=>
+      [31m[1;31m"[0m[31mEBONY is the flagship magazine of Johnson Publishing. Founded in 1945 by John H. Johnson, it still maintains the highest global circulation of any African American-focused magazine.[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mreadingModes[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31mtext[1;31m"[0m[31m[0m=>[1;36mfalse[0m, [31m[1;31m"[0m[31mimage[1;31m"[0m[31m[0m=>[1;36mtrue[0m},
+     [31m[1;31m"[0m[31mpageCount[1;31m"[0m[31m[0m=>[1;34m192[0m,
+     [31m[1;31m"[0m[31mprintType[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mMAGAZINE[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31maverageRating[1;31m"[0m[31m[0m=>[1;34m5[0m,
+     [31m[1;31m"[0m[31mratingsCount[1;31m"[0m[31m[0m=>[1;34m3[0m,
+     [31m[1;31m"[0m[31mmaturityRating[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mNOT_MATURE[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mallowAnonLogging[1;31m"[0m[31m[0m=>[1;36mfalse[0m,
+     [31m[1;31m"[0m[31mcontentVersion[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m0.0.1.0.preview.1[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mimageLinks[1;31m"[0m[31m[0m=>
+      {[31m[1;31m"[0m[31msmallThumbnail[1;31m"[0m[31m[0m=>
+        [31m[1;31m"[0m[31mhttp://books.google.com/books/content?id=PtMDAAAAMBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api[1;31m"[0m[31m[0m,
+       [31m[1;31m"[0m[31mthumbnail[1;31m"[0m[31m[0m=>
+        [31m[1;31m"[0m[31mhttp://books.google.com/books/content?id=PtMDAAAAMBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api[1;31m"[0m[31m[0m},
+     [31m[1;31m"[0m[31mlanguage[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31men[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mpreviewLink[1;31m"[0m[31m[0m=>
+      [31m[1;31m"[0m[31mhttp://books.google.com/books?id=PtMDAAAAMBAJ&printsec=frontcover&dq=book&hl=&cd=4&source=gbs_api[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31minfoLink[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttp://books.google.com/books?id=PtMDAAAAMBAJ&dq=book&hl=&source=gbs_api[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mcanonicalVolumeLink[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttps://books.google.com/books/about/Ebony.html?hl=&id=PtMDAAAAMBAJ[1;31m"[0m[31m[0m},
+   [31m[1;31m"[0m[31msaleInfo[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31mcountry[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mSI[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31msaleability[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mNOT_FOR_SALE[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31misEbook[1;31m"[0m[31m[0m=>[1;36mfalse[0m},
+   [31m[1;31m"[0m[31maccessInfo[1;31m"[0m[31m[0m=>
+    {[31m[1;31m"[0m[31mcountry[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mSI[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mviewability[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mALL_PAGES[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31membeddable[1;31m"[0m[31m[0m=>[1;36mtrue[0m,
+     [31m[1;31m"[0m[31mpublicDomain[1;31m"[0m[31m[0m=>[1;36mfalse[0m,
+     [31m[1;31m"[0m[31mtextToSpeechPermission[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mALLOWED[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mepub[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31misAvailable[1;31m"[0m[31m[0m=>[1;36mfalse[0m},
+     [31m[1;31m"[0m[31mpdf[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31misAvailable[1;31m"[0m[31m[0m=>[1;36mfalse[0m},
+     [31m[1;31m"[0m[31mwebReaderLink[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttp://play.google.com/books/reader?id=PtMDAAAAMBAJ&hl=&printsec=frontcover&source=gbs_api[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31maccessViewStatus[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mSAMPLE[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mquoteSharingAllowed[1;31m"[0m[31m[0m=>[1;36mfalse[0m},
+   [31m[1;31m"[0m[31msearchInfo[1;31m"[0m[31m[0m=>
+    {[31m[1;31m"[0m[31mtextSnippet[1;31m"[0m[31m[0m=>
+      [31m[1;31m"[0m[31mEBONY is the flagship magazine of Johnson Publishing. Founded in 1945 by John H. Johnson, it still maintains the highest global circulation of any African American-focused magazine.[1;31m"[0m[31m[0m}},
+  {[31m[1;31m"[0m[31mkind[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mbooks#volume[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mid[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mN0EEAAAAMBAJ[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31metag[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mda3sL5soE5c[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mselfLink[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttps://www.googleapis.com/books/v1/volumes/N0EEAAAAMBAJ[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mvolumeInfo[1;31m"[0m[31m[0m=>
+    {[31m[1;31m"[0m[31mtitle[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mLIFE[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mpublishedDate[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m1936-11-23[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mdescription[1;31m"[0m[31m[0m=>
+      [31m[1;31m"[0m[31mLIFE Magazine is the treasured photographic magazine that chronicled the 20th Century. It now lives on at LIFE.com, the largest, most amazing collection of professional photography on the internet. Users can browse, search and view photos of today’s people and events. They have free access to share, print and post images for personal use.[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mreadingModes[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31mtext[1;31m"[0m[31m[0m=>[1;36mfalse[0m, [31m[1;31m"[0m[31mimage[1;31m"[0m[31m[0m=>[1;36mtrue[0m},
+     [31m[1;31m"[0m[31mpageCount[1;31m"[0m[31m[0m=>[1;34m96[0m,
+     [31m[1;31m"[0m[31mprintType[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mMAGAZINE[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31maverageRating[1;31m"[0m[31m[0m=>[1;34m4[0m,
+     [31m[1;31m"[0m[31mratingsCount[1;31m"[0m[31m[0m=>[1;34m4[0m,
+     [31m[1;31m"[0m[31mmaturityRating[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mNOT_MATURE[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mallowAnonLogging[1;31m"[0m[31m[0m=>[1;36mfalse[0m,
+     [31m[1;31m"[0m[31mcontentVersion[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m0.0.1.0.preview.1[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mimageLinks[1;31m"[0m[31m[0m=>
+      {[31m[1;31m"[0m[31msmallThumbnail[1;31m"[0m[31m[0m=>
+        [31m[1;31m"[0m[31mhttp://books.google.com/books/content?id=N0EEAAAAMBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api[1;31m"[0m[31m[0m,
+       [31m[1;31m"[0m[31mthumbnail[1;31m"[0m[31m[0m=>
+        [31m[1;31m"[0m[31mhttp://books.google.com/books/content?id=N0EEAAAAMBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api[1;31m"[0m[31m[0m},
+     [31m[1;31m"[0m[31mlanguage[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31men[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mpreviewLink[1;31m"[0m[31m[0m=>
+      [31m[1;31m"[0m[31mhttp://books.google.com/books?id=N0EEAAAAMBAJ&printsec=frontcover&dq=book&hl=&cd=5&source=gbs_api[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31minfoLink[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttp://books.google.com/books?id=N0EEAAAAMBAJ&dq=book&hl=&source=gbs_api[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mcanonicalVolumeLink[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttps://books.google.com/books/about/LIFE.html?hl=&id=N0EEAAAAMBAJ[1;31m"[0m[31m[0m},
+   [31m[1;31m"[0m[31msaleInfo[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31mcountry[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mSI[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31msaleability[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mNOT_FOR_SALE[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31misEbook[1;31m"[0m[31m[0m=>[1;36mfalse[0m},
+   [31m[1;31m"[0m[31maccessInfo[1;31m"[0m[31m[0m=>
+    {[31m[1;31m"[0m[31mcountry[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mSI[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mviewability[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mALL_PAGES[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31membeddable[1;31m"[0m[31m[0m=>[1;36mtrue[0m,
+     [31m[1;31m"[0m[31mpublicDomain[1;31m"[0m[31m[0m=>[1;36mfalse[0m,
+     [31m[1;31m"[0m[31mtextToSpeechPermission[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mALLOWED[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mepub[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31misAvailable[1;31m"[0m[31m[0m=>[1;36mfalse[0m},
+     [31m[1;31m"[0m[31mpdf[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31misAvailable[1;31m"[0m[31m[0m=>[1;36mfalse[0m},
+     [31m[1;31m"[0m[31mwebReaderLink[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttp://play.google.com/books/reader?id=N0EEAAAAMBAJ&hl=&printsec=frontcover&source=gbs_api[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31maccessViewStatus[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mSAMPLE[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mquoteSharingAllowed[1;31m"[0m[31m[0m=>[1;36mfalse[0m},
+   [31m[1;31m"[0m[31msearchInfo[1;31m"[0m[31m[0m=>
+    {[31m[1;31m"[0m[31mtextSnippet[1;31m"[0m[31m[0m=>
+      [31m[1;31m"[0m[31mLIFE Magazine is the treasured photographic magazine that chronicled the 20th Century. It now lives on at LIFE.com, the largest, most amazing collection of professional photography on the internet.[1;31m"[0m[31m[0m}},
+  {[31m[1;31m"[0m[31mkind[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mbooks#volume[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mid[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mi1YEAAAAMBAJ[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31metag[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mz+v6H+t/Dw4[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mselfLink[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttps://www.googleapis.com/books/v1/volumes/i1YEAAAAMBAJ[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mvolumeInfo[1;31m"[0m[31m[0m=>
+    {[31m[1;31m"[0m[31mtitle[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mLIFE[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mpublishedDate[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m1967-01-06[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mdescription[1;31m"[0m[31m[0m=>
+      [31m[1;31m"[0m[31mLIFE Magazine is the treasured photographic magazine that chronicled the 20th Century. It now lives on at LIFE.com, the largest, most amazing collection of professional photography on the internet. Users can browse, search and view photos of today’s people and events. They have free access to share, print and post images for personal use.[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mreadingModes[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31mtext[1;31m"[0m[31m[0m=>[1;36mfalse[0m, [31m[1;31m"[0m[31mimage[1;31m"[0m[31m[0m=>[1;36mtrue[0m},
+     [31m[1;31m"[0m[31mpageCount[1;31m"[0m[31m[0m=>[1;34m84[0m,
+     [31m[1;31m"[0m[31mprintType[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mMAGAZINE[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mmaturityRating[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mNOT_MATURE[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mallowAnonLogging[1;31m"[0m[31m[0m=>[1;36mfalse[0m,
+     [31m[1;31m"[0m[31mcontentVersion[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m0.0.1.0.preview.1[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mimageLinks[1;31m"[0m[31m[0m=>
+      {[31m[1;31m"[0m[31msmallThumbnail[1;31m"[0m[31m[0m=>
+        [31m[1;31m"[0m[31mhttp://books.google.com/books/content?id=i1YEAAAAMBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api[1;31m"[0m[31m[0m,
+       [31m[1;31m"[0m[31mthumbnail[1;31m"[0m[31m[0m=>
+        [31m[1;31m"[0m[31mhttp://books.google.com/books/content?id=i1YEAAAAMBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api[1;31m"[0m[31m[0m},
+     [31m[1;31m"[0m[31mlanguage[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31men[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mpreviewLink[1;31m"[0m[31m[0m=>
+      [31m[1;31m"[0m[31mhttp://books.google.com/books?id=i1YEAAAAMBAJ&printsec=frontcover&dq=book&hl=&cd=6&source=gbs_api[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31minfoLink[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttp://books.google.com/books?id=i1YEAAAAMBAJ&dq=book&hl=&source=gbs_api[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mcanonicalVolumeLink[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttps://books.google.com/books/about/LIFE.html?hl=&id=i1YEAAAAMBAJ[1;31m"[0m[31m[0m},
+   [31m[1;31m"[0m[31msaleInfo[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31mcountry[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mSI[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31msaleability[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mNOT_FOR_SALE[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31misEbook[1;31m"[0m[31m[0m=>[1;36mfalse[0m},
+   [31m[1;31m"[0m[31maccessInfo[1;31m"[0m[31m[0m=>
+    {[31m[1;31m"[0m[31mcountry[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mSI[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mviewability[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mALL_PAGES[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31membeddable[1;31m"[0m[31m[0m=>[1;36mtrue[0m,
+     [31m[1;31m"[0m[31mpublicDomain[1;31m"[0m[31m[0m=>[1;36mfalse[0m,
+     [31m[1;31m"[0m[31mtextToSpeechPermission[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mALLOWED[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mepub[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31misAvailable[1;31m"[0m[31m[0m=>[1;36mfalse[0m},
+     [31m[1;31m"[0m[31mpdf[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31misAvailable[1;31m"[0m[31m[0m=>[1;36mfalse[0m},
+     [31m[1;31m"[0m[31mwebReaderLink[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttp://play.google.com/books/reader?id=i1YEAAAAMBAJ&hl=&printsec=frontcover&source=gbs_api[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31maccessViewStatus[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mSAMPLE[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mquoteSharingAllowed[1;31m"[0m[31m[0m=>[1;36mfalse[0m},
+   [31m[1;31m"[0m[31msearchInfo[1;31m"[0m[31m[0m=>
+    {[31m[1;31m"[0m[31mtextSnippet[1;31m"[0m[31m[0m=>
+      [31m[1;31m"[0m[31mLIFE Magazine is the treasured photographic magazine that chronicled the 20th Century. It now lives on at LIFE.com, the largest, most amazing collection of professional photography on the internet.[1;31m"[0m[31m[0m}},
+  {[31m[1;31m"[0m[31mkind[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mbooks#volume[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mid[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mXAgAAAAAMBAJ[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31metag[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mc794Fgv8gWo[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mselfLink[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttps://www.googleapis.com/books/v1/volumes/XAgAAAAAMBAJ[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mvolumeInfo[1;31m"[0m[31m[0m=>
+    {[31m[1;31m"[0m[31mtitle[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mBulletin of the Atomic Scientists[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mpublishedDate[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m1966-01[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mdescription[1;31m"[0m[31m[0m=>
+      [31m[1;31m"[0m[31mThe Bulletin of the Atomic Scientists is the premier public resource on scientific and technological developments that impact global security. Founded by Manhattan Project Scientists, the Bulletin's iconic [1;35m\"[0m[31mDoomsday Clock[1;35m\"[0m[31m stimulates solutions for a safer world.[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mreadingModes[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31mtext[1;31m"[0m[31m[0m=>[1;36mfalse[0m, [31m[1;31m"[0m[31mimage[1;31m"[0m[31m[0m=>[1;36mtrue[0m},
+     [31m[1;31m"[0m[31mpageCount[1;31m"[0m[31m[0m=>[1;34m48[0m,
+     [31m[1;31m"[0m[31mprintType[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mMAGAZINE[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mmaturityRating[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mNOT_MATURE[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mallowAnonLogging[1;31m"[0m[31m[0m=>[1;36mfalse[0m,
+     [31m[1;31m"[0m[31mcontentVersion[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m0.0.2.0.preview.1[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mpanelizationSummary[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31mcontainsEpubBubbles[1;31m"[0m[31m[0m=>[1;36mfalse[0m, [31m[1;31m"[0m[31mcontainsImageBubbles[1;31m"[0m[31m[0m=>[1;36mfalse[0m},
+     [31m[1;31m"[0m[31mimageLinks[1;31m"[0m[31m[0m=>
+      {[31m[1;31m"[0m[31msmallThumbnail[1;31m"[0m[31m[0m=>
+        [31m[1;31m"[0m[31mhttp://books.google.com/books/content?id=XAgAAAAAMBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api[1;31m"[0m[31m[0m,
+       [31m[1;31m"[0m[31mthumbnail[1;31m"[0m[31m[0m=>
+        [31m[1;31m"[0m[31mhttp://books.google.com/books/content?id=XAgAAAAAMBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api[1;31m"[0m[31m[0m},
+     [31m[1;31m"[0m[31mlanguage[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31men[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mpreviewLink[1;31m"[0m[31m[0m=>
+      [31m[1;31m"[0m[31mhttp://books.google.com/books?id=XAgAAAAAMBAJ&printsec=frontcover&dq=book&hl=&cd=7&source=gbs_api[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31minfoLink[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttp://books.google.com/books?id=XAgAAAAAMBAJ&dq=book&hl=&source=gbs_api[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mcanonicalVolumeLink[1;31m"[0m[31m[0m=>
+      [31m[1;31m"[0m[31mhttps://books.google.com/books/about/Bulletin_of_the_Atomic_Scientists.html?hl=&id=XAgAAAAAMBAJ[1;31m"[0m[31m[0m},
+   [31m[1;31m"[0m[31msaleInfo[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31mcountry[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mSI[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31msaleability[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mNOT_FOR_SALE[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31misEbook[1;31m"[0m[31m[0m=>[1;36mfalse[0m},
+   [31m[1;31m"[0m[31maccessInfo[1;31m"[0m[31m[0m=>
+    {[31m[1;31m"[0m[31mcountry[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mSI[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mviewability[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mALL_PAGES[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31membeddable[1;31m"[0m[31m[0m=>[1;36mtrue[0m,
+     [31m[1;31m"[0m[31mpublicDomain[1;31m"[0m[31m[0m=>[1;36mfalse[0m,
+     [31m[1;31m"[0m[31mtextToSpeechPermission[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mALLOWED[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mepub[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31misAvailable[1;31m"[0m[31m[0m=>[1;36mfalse[0m},
+     [31m[1;31m"[0m[31mpdf[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31misAvailable[1;31m"[0m[31m[0m=>[1;36mfalse[0m},
+     [31m[1;31m"[0m[31mwebReaderLink[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttp://play.google.com/books/reader?id=XAgAAAAAMBAJ&hl=&printsec=frontcover&source=gbs_api[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31maccessViewStatus[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mSAMPLE[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mquoteSharingAllowed[1;31m"[0m[31m[0m=>[1;36mfalse[0m},
+   [31m[1;31m"[0m[31msearchInfo[1;31m"[0m[31m[0m=>
+    {[31m[1;31m"[0m[31mtextSnippet[1;31m"[0m[31m[0m=>
+      [31m[1;31m"[0m[31mThe Bulletin of the Atomic Scientists is the premier public resource on scientific and technological developments that impact global security.[1;31m"[0m[31m[0m}},
+  {[31m[1;31m"[0m[31mkind[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mbooks#volume[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mid[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mVT7C_Y4Wm54C[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31metag[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mJzDkCbzz+tE[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mselfLink[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttps://www.googleapis.com/books/v1/volumes/VT7C_Y4Wm54C[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mvolumeInfo[1;31m"[0m[31m[0m=>
+    {[31m[1;31m"[0m[31mtitle[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mFlying Magazine[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mpublishedDate[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m1993-12[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mreadingModes[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31mtext[1;31m"[0m[31m[0m=>[1;36mfalse[0m, [31m[1;31m"[0m[31mimage[1;31m"[0m[31m[0m=>[1;36mtrue[0m},
+     [31m[1;31m"[0m[31mpageCount[1;31m"[0m[31m[0m=>[1;34m106[0m,
+     [31m[1;31m"[0m[31mprintType[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mMAGAZINE[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31maverageRating[1;31m"[0m[31m[0m=>[1;34m1[0m,
+     [31m[1;31m"[0m[31mratingsCount[1;31m"[0m[31m[0m=>[1;34m1[0m,
+     [31m[1;31m"[0m[31mmaturityRating[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mNOT_MATURE[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mallowAnonLogging[1;31m"[0m[31m[0m=>[1;36mfalse[0m,
+     [31m[1;31m"[0m[31mcontentVersion[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mpreview-1.0.0[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mimageLinks[1;31m"[0m[31m[0m=>
+      {[31m[1;31m"[0m[31msmallThumbnail[1;31m"[0m[31m[0m=>
+        [31m[1;31m"[0m[31mhttp://books.google.com/books/content?id=VT7C_Y4Wm54C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api[1;31m"[0m[31m[0m,
+       [31m[1;31m"[0m[31mthumbnail[1;31m"[0m[31m[0m=>
+        [31m[1;31m"[0m[31mhttp://books.google.com/books/content?id=VT7C_Y4Wm54C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api[1;31m"[0m[31m[0m},
+     [31m[1;31m"[0m[31mlanguage[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31men[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mpreviewLink[1;31m"[0m[31m[0m=>
+      [31m[1;31m"[0m[31mhttp://books.google.com/books?id=VT7C_Y4Wm54C&printsec=frontcover&dq=book&hl=&cd=8&source=gbs_api[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31minfoLink[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttp://books.google.com/books?id=VT7C_Y4Wm54C&dq=book&hl=&source=gbs_api[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mcanonicalVolumeLink[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttps://books.google.com/books/about/Flying_Magazine.html?hl=&id=VT7C_Y4Wm54C[1;31m"[0m[31m[0m},
+   [31m[1;31m"[0m[31msaleInfo[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31mcountry[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mSI[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31msaleability[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mNOT_FOR_SALE[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31misEbook[1;31m"[0m[31m[0m=>[1;36mfalse[0m},
+   [31m[1;31m"[0m[31maccessInfo[1;31m"[0m[31m[0m=>
+    {[31m[1;31m"[0m[31mcountry[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mSI[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mviewability[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mALL_PAGES[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31membeddable[1;31m"[0m[31m[0m=>[1;36mtrue[0m,
+     [31m[1;31m"[0m[31mpublicDomain[1;31m"[0m[31m[0m=>[1;36mfalse[0m,
+     [31m[1;31m"[0m[31mtextToSpeechPermission[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mALLOWED[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mepub[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31misAvailable[1;31m"[0m[31m[0m=>[1;36mfalse[0m},
+     [31m[1;31m"[0m[31mpdf[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31misAvailable[1;31m"[0m[31m[0m=>[1;36mfalse[0m},
+     [31m[1;31m"[0m[31mwebReaderLink[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttp://play.google.com/books/reader?id=VT7C_Y4Wm54C&hl=&printsec=frontcover&source=gbs_api[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31maccessViewStatus[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mSAMPLE[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mquoteSharingAllowed[1;31m"[0m[31m[0m=>[1;36mfalse[0m}},
+  {[31m[1;31m"[0m[31mkind[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mbooks#volume[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mid[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m-OADAAAAMBAJ[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31metag[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m61LX89wtxU8[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mselfLink[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttps://www.googleapis.com/books/v1/volumes/-OADAAAAMBAJ[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mvolumeInfo[1;31m"[0m[31m[0m=>
+    {[31m[1;31m"[0m[31mtitle[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mPopular Mechanics[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mpublishedDate[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m1909-01[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mdescription[1;31m"[0m[31m[0m=>
+      [31m[1;31m"[0m[31mPopular Mechanics inspires, instructs and influences readers to help them master the modern world. Whether it’s practical DIY home-improvement tips, gadgets and digital technology, information on the newest cars or the latest breakthroughs in science -- PM is the ultimate guide to our high-tech lifestyle.[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mreadingModes[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31mtext[1;31m"[0m[31m[0m=>[1;36mfalse[0m, [31m[1;31m"[0m[31mimage[1;31m"[0m[31m[0m=>[1;36mtrue[0m},
+     [31m[1;31m"[0m[31mpageCount[1;31m"[0m[31m[0m=>[1;34m176[0m,
+     [31m[1;31m"[0m[31mprintType[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mMAGAZINE[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mmaturityRating[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mNOT_MATURE[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mallowAnonLogging[1;31m"[0m[31m[0m=>[1;36mfalse[0m,
+     [31m[1;31m"[0m[31mcontentVersion[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m0.0.1.0.preview.1[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mimageLinks[1;31m"[0m[31m[0m=>
+      {[31m[1;31m"[0m[31msmallThumbnail[1;31m"[0m[31m[0m=>
+        [31m[1;31m"[0m[31mhttp://books.google.com/books/content?id=-OADAAAAMBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api[1;31m"[0m[31m[0m,
+       [31m[1;31m"[0m[31mthumbnail[1;31m"[0m[31m[0m=>
+        [31m[1;31m"[0m[31mhttp://books.google.com/books/content?id=-OADAAAAMBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api[1;31m"[0m[31m[0m},
+     [31m[1;31m"[0m[31mlanguage[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31men[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mpreviewLink[1;31m"[0m[31m[0m=>
+      [31m[1;31m"[0m[31mhttp://books.google.com/books?id=-OADAAAAMBAJ&printsec=frontcover&dq=book&hl=&cd=9&source=gbs_api[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31minfoLink[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttp://books.google.com/books?id=-OADAAAAMBAJ&dq=book&hl=&source=gbs_api[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mcanonicalVolumeLink[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttps://books.google.com/books/about/Popular_Mechanics.html?hl=&id=-OADAAAAMBAJ[1;31m"[0m[31m[0m},
+   [31m[1;31m"[0m[31msaleInfo[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31mcountry[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mSI[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31msaleability[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mNOT_FOR_SALE[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31misEbook[1;31m"[0m[31m[0m=>[1;36mfalse[0m},
+   [31m[1;31m"[0m[31maccessInfo[1;31m"[0m[31m[0m=>
+    {[31m[1;31m"[0m[31mcountry[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mSI[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mviewability[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mALL_PAGES[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31membeddable[1;31m"[0m[31m[0m=>[1;36mtrue[0m,
+     [31m[1;31m"[0m[31mpublicDomain[1;31m"[0m[31m[0m=>[1;36mfalse[0m,
+     [31m[1;31m"[0m[31mtextToSpeechPermission[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mALLOWED[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mepub[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31misAvailable[1;31m"[0m[31m[0m=>[1;36mfalse[0m},
+     [31m[1;31m"[0m[31mpdf[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31misAvailable[1;31m"[0m[31m[0m=>[1;36mfalse[0m},
+     [31m[1;31m"[0m[31mwebReaderLink[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttp://play.google.com/books/reader?id=-OADAAAAMBAJ&hl=&printsec=frontcover&source=gbs_api[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31maccessViewStatus[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mSAMPLE[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mquoteSharingAllowed[1;31m"[0m[31m[0m=>[1;36mfalse[0m},
+   [31m[1;31m"[0m[31msearchInfo[1;31m"[0m[31m[0m=>
+    {[31m[1;31m"[0m[31mtextSnippet[1;31m"[0m[31m[0m=>
+      [31m[1;31m"[0m[31mWhether it’s practical DIY home-improvement tips, gadgets and digital technology, information on the newest cars or the latest breakthroughs in science -- PM is the ultimate guide to our high-tech lifestyle.[1;31m"[0m[31m[0m}},
+  {[31m[1;31m"[0m[31mkind[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mbooks#volume[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mid[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m9CkDAAAAMBAJ[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31metag[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mx0+AIAlnuMQ[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mselfLink[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttps://www.googleapis.com/books/v1/volumes/9CkDAAAAMBAJ[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mvolumeInfo[1;31m"[0m[31m[0m=>
+    {[31m[1;31m"[0m[31mtitle[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mPopular Science[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mpublishedDate[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m1920-02[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mdescription[1;31m"[0m[31m[0m=>
+      [31m[1;31m"[0m[31mPopular Science gives our readers the information and tools to improve their technology and their world. The core belief that Popular Science and our readers share: The future is going to be better, and science and technology are the driving forces that will help make it better.[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mreadingModes[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31mtext[1;31m"[0m[31m[0m=>[1;36mfalse[0m, [31m[1;31m"[0m[31mimage[1;31m"[0m[31m[0m=>[1;36mtrue[0m},
+     [31m[1;31m"[0m[31mpageCount[1;31m"[0m[31m[0m=>[1;34m152[0m,
+     [31m[1;31m"[0m[31mprintType[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mMAGAZINE[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31maverageRating[1;31m"[0m[31m[0m=>[1;34m4[0m,
+     [31m[1;31m"[0m[31mratingsCount[1;31m"[0m[31m[0m=>[1;34m1[0m,
+     [31m[1;31m"[0m[31mmaturityRating[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mNOT_MATURE[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mallowAnonLogging[1;31m"[0m[31m[0m=>[1;36mfalse[0m,
+     [31m[1;31m"[0m[31mcontentVersion[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mpreview-1.0.0[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mimageLinks[1;31m"[0m[31m[0m=>
+      {[31m[1;31m"[0m[31msmallThumbnail[1;31m"[0m[31m[0m=>
+        [31m[1;31m"[0m[31mhttp://books.google.com/books/content?id=9CkDAAAAMBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api[1;31m"[0m[31m[0m,
+       [31m[1;31m"[0m[31mthumbnail[1;31m"[0m[31m[0m=>
+        [31m[1;31m"[0m[31mhttp://books.google.com/books/content?id=9CkDAAAAMBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api[1;31m"[0m[31m[0m},
+     [31m[1;31m"[0m[31mlanguage[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31men[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mpreviewLink[1;31m"[0m[31m[0m=>
+      [31m[1;31m"[0m[31mhttp://books.google.com/books?id=9CkDAAAAMBAJ&printsec=frontcover&dq=book&hl=&cd=10&source=gbs_api[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31minfoLink[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttp://books.google.com/books?id=9CkDAAAAMBAJ&dq=book&hl=&source=gbs_api[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mcanonicalVolumeLink[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttps://books.google.com/books/about/Popular_Science.html?hl=&id=9CkDAAAAMBAJ[1;31m"[0m[31m[0m},
+   [31m[1;31m"[0m[31msaleInfo[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31mcountry[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mSI[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31msaleability[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mNOT_FOR_SALE[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31misEbook[1;31m"[0m[31m[0m=>[1;36mfalse[0m},
+   [31m[1;31m"[0m[31maccessInfo[1;31m"[0m[31m[0m=>
+    {[31m[1;31m"[0m[31mcountry[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mSI[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mviewability[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mALL_PAGES[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31membeddable[1;31m"[0m[31m[0m=>[1;36mtrue[0m,
+     [31m[1;31m"[0m[31mpublicDomain[1;31m"[0m[31m[0m=>[1;36mfalse[0m,
+     [31m[1;31m"[0m[31mtextToSpeechPermission[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mALLOWED[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mepub[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31misAvailable[1;31m"[0m[31m[0m=>[1;36mfalse[0m},
+     [31m[1;31m"[0m[31mpdf[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31misAvailable[1;31m"[0m[31m[0m=>[1;36mfalse[0m},
+     [31m[1;31m"[0m[31mwebReaderLink[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttp://play.google.com/books/reader?id=9CkDAAAAMBAJ&hl=&printsec=frontcover&source=gbs_api[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31maccessViewStatus[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mSAMPLE[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mquoteSharingAllowed[1;31m"[0m[31m[0m=>[1;36mfalse[0m},
+   [31m[1;31m"[0m[31msearchInfo[1;31m"[0m[31m[0m=>
+    {[31m[1;31m"[0m[31mtextSnippet[1;31m"[0m[31m[0m=>
+      [31m[1;31m"[0m[31mPopular Science gives our readers the information and tools to improve their technology and their world.[1;31m"[0m[31m[0m}}]]
