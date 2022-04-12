@@ -55,17 +55,17 @@
 
         #Example.api_call
 
-        response = RestClient.get('https://www.googleapis.com/books/v1/volumes?q=kmettt')
+        response = RestClient.get('https://www.googleapis.com/books/v1/volumes?q=Potter&projection=lite')
         books_array = JSON.parse(response)
+        #raise books_array.to_json
         %>
-        <%= books_array.keys %>
 
-        <% books_array.each do |book|
+        <% books_array['items'].each do |book|%>
 
-            #puts "Kind: #{book["kind"]}"
+            <%= book['volumeInfo']['title'] %>
+            <hr>
 
-        end 
-        %>
+        <%end %>
     
 
         <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
