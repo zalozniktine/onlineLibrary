@@ -55,8 +55,8 @@
 
         response = RestClient.get('https://www.googleapis.com/books/v1/volumes?q=Potter&projection=lite&maxResults=3')
         books_array = JSON.parse(response)
+        #raise books_array.to_json
         %>
-
 
         
         <div class="container px-4 py-5" id="custom-cards">
