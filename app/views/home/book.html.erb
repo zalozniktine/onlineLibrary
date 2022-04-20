@@ -1,9 +1,12 @@
-<h1> Search Results </h1>
+<%= params[:id]
+
+
+%>
 
  <% 
         #Example.api_call
 
-        response = RestClient.get('https://www.googleapis.com/books/v1/volumes?q='+params[:q]+'&projection=lite')
+        response = RestClient.get('https://www.googleapis.com/books/v1/volumes?q='+params[:id]+'&projection=lite')
         books_array = JSON.parse(response)
         #raise books_array.to_json
         %>
@@ -25,5 +28,5 @@
         </div>
 
         
-
+        <%break%>
         <% end %>

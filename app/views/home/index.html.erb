@@ -52,46 +52,30 @@
         url = 'https://www.googleapis.com/books/v1/volumes?q=book&projection=lite&maxResults=3'
 
         #Example.api_call
-
-        response = RestClient.get('https://www.googleapis.com/books/v1/volumes?q=Potter&projection=lite&maxResults=3')
+        #https://www.googleapis.com/books/v1/volumes?q=Potter+subject:fiction&maxResults=20
+        response = RestClient.get('https://www.googleapis.com/books/v1/volumes?q=Potter&projection=lite&maxResults=5')
         books_array = JSON.parse(response)
         #raise books_array.to_json
         %>
 
         
-        <div class="container px-4 py-5" id="custom-cards">
-        <h2 class="pb-2 border-bottom">Books We Love</h2>
-        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+        <h2 class="pb-2 border-bottom" style="margin-left: 120px">Books We Love</h2>
+        <br><br>
 
+        <div class="container">
+            <div class="row">
         <% books_array['items'].each do |book|%>
 
-    
-
-        <div class="col">
-            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url(<% if (book['volumeInfo']['imageLinks']) %><%= book['volumeInfo']['imageLinks']['thumbnail'] %><% end %>);">
-            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><%= book['volumeInfo']['title'] %></h2>
-                <ul class="d-flex list-unstyled mt-auto">
-                <li class="d-flex align-items-center me-3">
-                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
-                    <small><%= book['volumeInfo']['authors'][0] %></small>
-                </li>
-                </ul>
-            </div>
-            </div>
-        </div>
+                <div class="col">
+                    <%= link_to "Profile", home_book_path(id: book["id"]), method: :get, style:'width:200px; height:290px'  %>
+                    <img style="width:200px; height:290px !important" src="<% if (book['volumeInfo']['imageLinks']) %><%= book['volumeInfo']['imageLinks']['thumbnail'] %><% end %>" alt="BookCover">
+                    </a>
+                </div>
         
         <% end %>
         </div>
-    </div>
-            
-            
-
-
-
-
-
-
+        </div>
+        
 
     <div class="container px-4 py-5" id="custom-cards">
         <h2 class="pb-2 border-bottom">Books We Love</h2>
