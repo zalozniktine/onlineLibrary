@@ -53,7 +53,7 @@
 
         #Example.api_call
         #https://www.googleapis.com/books/v1/volumes?q=Potter+subject:fiction&maxResults=20
-        response = RestClient.get('https://www.googleapis.com/books/v1/volumes?q=Potter&projection=lite&maxResults=5')
+        response = RestClient.get('https://www.googleapis.com/books/v1/volumes?q=Potter&projection=lite&maxResults=5&filter=partial')
         books_array = JSON.parse(response)
         #raise books_array.to_json
         %>
@@ -65,13 +65,11 @@
         <div class="container">
             <div class="row">
         <% books_array['items'].each do |book|%>
-
-                <div class="col">
-                    <%= link_to "Profile", home_book_path(id: book["id"]), method: :get, style:'width:200px; height:290px'  %>
-                    <img style="width:200px; height:290px !important" src="<% if (book['volumeInfo']['imageLinks']) %><%= book['volumeInfo']['imageLinks']['thumbnail'] %><% end %>" alt="BookCover">
-                    </a>
-                </div>
-        
+        <div class="col imag">
+            <%= link_to about_book_path(id: book["id"]), method: :get do%>
+                <div class="col imag" style="background-image: url(<% if (book['volumeInfo']['imageLinks']) %><%= book['volumeInfo']['imageLinks']['thumbnail'] %><% end %>); background-repeat:no-repeat;  width:200px; height:290px !important"></div>
+            <% end %>
+        </div>
         <% end %>
         </div>
         </div>

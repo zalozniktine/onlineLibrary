@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get 'home/about'
 
   get 'search',to:"books#search"
-  get 'home/book',to:"home#book"
+  get 'about_book',to:"home#about_book"
+  get 'preview',to:"home#book_preview"
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
