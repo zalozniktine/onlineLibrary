@@ -4,26 +4,27 @@
         #Example.api_call
 
         response = RestClient.get('https://www.googleapis.com/books/v1/volumes?q='+params[:q]+'&projection=lite')
+        
         books_array = JSON.parse(response)
         #raise books_array.to_json
         %>
 
         <% books_array['items'].each do |book|%>
 
-        <div class="col">
-            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
-            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><%= book['volumeInfo']['title'] %></h2>
-                <ul class="d-flex list-unstyled mt-auto">
-                <li class="d-flex align-items-center me-3">
-                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
-                    <small>California</small>
-                </li>
-                </ul>
+        <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-primary">Žanr knjige</strong>
+            <h3 class="mb-0"><%= book['volumeInfo']['title'] %></h3>
+            <div class="mb-1 text-muted"><% if (book['volumeInfo']['authors']) %> <%= book['volumeInfo']['authors'][0] %><% end %>
             </div>
+            <p class="card-text mb-auto">Kratek opis knjige.</p>
+            <a href="#" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-lg-block">
+                <img src="<% if (book['volumeInfo']['imageLinks']) %><%= book['volumeInfo']['imageLinks']['thumbnail'] %><% end %>" onerror="this.onerror=null; this.src='https://www.spl.org/Seattle-Public-Library/images/books-media/default-list-icons/default-book-icon.png'">
             </div>
         </div>
-
-        
+        </div>
 
         <% end %>
