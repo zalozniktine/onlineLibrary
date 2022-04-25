@@ -3,7 +3,7 @@
  <% 
         #Example.api_call
 
-        response = RestClient.get('https://www.googleapis.com/books/v1/volumes?q='+params[:q]+'&projection=lite')
+        response = RestClient.get('https://www.googleapis.com/books/v1/volumes?q='+params[:q]+'&projection=lite&filter=partial')
         
         books_array = JSON.parse(response)
         #raise books_array.to_json
@@ -18,8 +18,9 @@
             <h3 class="mb-0"><%= book['volumeInfo']['title'] %></h3>
             <div class="mb-1 text-muted"><% if (book['volumeInfo']['authors']) %> <%= book['volumeInfo']['authors'][0] %><% end %>
             </div>
-            <p class="card-text mb-auto">Kratek opis knjige.</p>
-            <a href="#" class="stretched-link">Continue reading</a>
+            <p class="card-text mb-auto"><%= (book['volumeInfo']['description']).truncate(200) %></p>
+            <!--<a href="#" class="stretched-link">Continue reading</a>-->
+            <%= link_to "Continue reading", about_book_path(id: book["id"]), method: :get, class:"stretched-link"%>
             </div>
             <div class="col-auto d-lg-block">
                 <img src="<% if (book['volumeInfo']['imageLinks']) %><%= book['volumeInfo']['imageLinks']['thumbnail'] %><% end %>" onerror="this.onerror=null; this.src='https://www.spl.org/Seattle-Public-Library/images/books-media/default-list-icons/default-book-icon.png'">
