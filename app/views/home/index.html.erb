@@ -66,7 +66,7 @@
             <div class="row">
         <% books_array['items'].each do |book|%>
         <div class="col imag">
-            <%= link_to about_book_path(id: book["id"]), method: :get do%>
+            <%= link_to about_book_path(id: book["id"]), method: :get do %>
                 <div class="col imag" style="background-image: url(<% if (book['volumeInfo']['imageLinks']) %><%= book['volumeInfo']['imageLinks']['thumbnail'] %><% end %>); background-repeat:no-repeat;  width:200px; height:290px !important"></div>
             <% end %>
         </div>
