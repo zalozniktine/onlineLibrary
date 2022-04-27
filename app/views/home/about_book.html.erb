@@ -7,7 +7,9 @@
         %>
 
         <% books_array['items'].each do |book|%>
-        <% if book['id'] != params[:id]
+        
+        <% #poskrbi da se vedno pokaze knjiga z enakim id-jem
+        if book['id'] != params[:id]
             next
         end %>
         
