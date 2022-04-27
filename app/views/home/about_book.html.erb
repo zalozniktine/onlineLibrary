@@ -1,4 +1,4 @@
- <% 
+        <% 
         #Example.api_call
 
         response = RestClient.get('https://www.googleapis.com/books/v1/volumes?q='+params[:id]+'&projection=lite')
@@ -7,6 +7,11 @@
         %>
 
         <% books_array['items'].each do |book|%>
+        <% if book['id'] != params[:id]
+            next
+        end %>
+        
+        
 
         <%  if book['volumeInfo']['imageLinks']
             @cover = book['volumeInfo']['imageLinks']['thumbnail']
