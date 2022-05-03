@@ -18,7 +18,7 @@
             <h3 class="mb-0"><%= book['volumeInfo']['title'] %></h3>
             <div class="mb-1 text-muted"><% if (book['volumeInfo']['authors']) %> <%= book['volumeInfo']['authors'][0] %><% end %>
             </div>
-            <p class="card-text mb-auto"><%= (book['volumeInfo']['description']).truncate(200) %></p>
+            <p class="card-text mb-auto"><% if (book['volumeInfo']['description'])%><%= (book['volumeInfo']['description']).truncate(200) %><% end %></p>
             <!--<a href="#" class="stretched-link">Continue reading</a>-->
             <%= link_to "Continue reading", about_book_path(id: book["id"]), method: :get, class:"stretched-link"%>
             </div>
