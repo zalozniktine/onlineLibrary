@@ -1,0 +1,43 @@
+<!-- table with 2 columns and 8 rows -->
+
+<div class="container">
+  <div class="row align-items-start" style="min-height: 50em;">
+    <div class="col">
+      <h2>Import Users</h2>
+        <%= form_tag import_users_path, multipart: true do %>
+        <%= file_field_tag :file %>
+        <%= submit_tag "Import" %>
+        <% end %>
+    </div>
+    <div class="col" style="border-left:1px solid black">
+      <table>
+        <% @users.each do |user| %>
+        <tr>
+        <td><%= user.email %><br/></td>
+        <td>
+
+            <% #button to delete user %>
+            <%=
+                 button_to "Delete", user, method: :delete, data: { confirm: "You sure?" }
+            %>
+        </td>
+         <td>
+
+            <% #button to make user admin unless already admin %>
+            <%=
+                    if(user.admin == nil)
+                    button_to "Make Admin", user, method: :put, data: { confirm: "You sure?" }
+                    end
+            %>
+        </td>
+
+
+        </tr>
+        <% end %>
+</table>
+    </div>
+    <div class="col">
+      One of three columns
+    </div>
+  </div>
+

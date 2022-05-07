@@ -6,6 +6,8 @@ Rails.application.routes.draw do
   get 'search',to:"books#search"
   get 'about_book',to:"home#about_book"
   get 'preview',to:"home#book_preview"
+  get 'admin',to:"admin#admin"
+  
 
   devise_for :users, controllers: {
     sessions: 'users/sessions'
