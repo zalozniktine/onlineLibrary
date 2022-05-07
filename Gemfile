@@ -28,7 +28,6 @@ gem 'jbuilder', '~> 2.7'
 gem 'rest-client'
 gem 'json'
 
-
 gem 'dotenv-rails'
 
 # Reduces boot times through caching; required in config/boot.rb
@@ -64,3 +63,6 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem "roo", "~> 2.9"
+gem 'iconv'
