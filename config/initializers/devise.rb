@@ -16,6 +16,9 @@ Devise.setup do |config|
   # by default. You can change it below and use your own secret key.
   # config.secret_key = '35533b1c5f8bbc9232ad45aea42d001d103efafa6117852b0ec9f787e76ff48fb922ad8d1f43cfea632c43ed4f9c4c1727daf6930c1ad0574be7c2af4b4518eb'
 
+
+  config.navigational_formats = ['*/*', :html, :turbo_stream]
+
   # ==> Controller configuration
   # Configure the parent class to the devise controllers.
   # config.parent_controller = 'DeviseController'
@@ -24,7 +27,7 @@ Devise.setup do |config|
   # Configure the e-mail address which will be shown in Devise::Mailer,
   # note that it will be overwritten if you use your own mailer class
   # with default "from" parameter.
-  config.mailer_sender = 'info@onlineLibrary.com'
+  config.mailer_sender = 'infolibrary7@gmail.com'
 
   # Configure the class responsible to send e-mails.
   # config.mailer = 'Devise::Mailer'
