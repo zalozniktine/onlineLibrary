@@ -92,6 +92,6 @@ test:
 #
 production:
   <<: *default
-  database: onlineLibrary_production
-  username: onlineLibrary
-  password: <%= ENV['ONLINELIBRARY_DATABASE_PASSWORD'] %>
+  database: online--books_production
+  username: online--books
+  password: <%= ENV['ONLINE--BOOKS_DATABASE_PASSWORD'] %>
