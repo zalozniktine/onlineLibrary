@@ -122,7 +122,7 @@ Rails.application.configure do
   #heroku confirm email
   config.action_mailer.raise_delivery_errors = false
 
-  config.action_mailer.default_url_options = { host: 'https://online--books.herokuapp.com/', port: 3000 }
+  config.action_mailer.default_url_options = { host: 'https://online--books.herokuapp.com/', port: 'https' }
 
   config.action_mailer.delivery_method  = :smtp
 
