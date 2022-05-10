@@ -1,10 +1,15 @@
 class BooksController < ApplicationController
   before_action :set_book, only: %i[ show edit update destroy ]
+  before_action :getLoans
 
 
   # GET /books or /books.json
   def index
     @books = Book.all
+  end
+  
+  def getLoans
+    @loans = Loan.all
   end
 
   # GET /books/1 or /books/1.json
