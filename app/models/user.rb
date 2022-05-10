@@ -22,6 +22,8 @@ class User < ApplicationRecord
   user.password = SecureRandom.urlsafe_base64
   puts "Saving User with email #{user.email}"
   user.save!
+  #tule pride za posiljanje maila
+  
 end 
         end
         
