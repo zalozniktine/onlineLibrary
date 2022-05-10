@@ -2,7 +2,10 @@ class UsersController < ApplicationController
     def import
         User.import(params[:file])
         redirect_to admin_path, notice: "Users imported."
-      end
+
+        
+        
+    end
 
       def destroy
         User.find(params[:id]).destroy

@@ -23,7 +23,11 @@ class User < ApplicationRecord
   puts "Saving User with email #{user.email}"
   user.save!
   #tule pride za posiljanje maila
-  
+  #za posiljanje maila ko importas userje
+    
+    UserMailer.with(user: user).pass_email.deliver_now
+
+    
 end 
         end
         
