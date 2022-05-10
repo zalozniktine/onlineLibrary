@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :loans
   resources :books
   root 'home#index'
   get 'home/about'
