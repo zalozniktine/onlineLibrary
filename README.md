@@ -1,24 +1,30 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Online Library 
+Online Library is online book renting application
 
-Things you may want to cover:
+Link to heroku website: https://online--books.herokuapp.com/
 
-* Ruby version
+## Description
+The web application includes creating user accounts, searching books, reading books and borrowing books.
 
-* System dependencies
 
-* Configuration
+## Technologies
+- Ruby on Rails
+- Postgresql
+- HTML, CSS, JS
 
-* Database creation
+## Screenshots
+-home page
 
-* Database initialization
+![image](https://user-images.githubusercontent.com/59819615/167577204-6a6b5c12-7800-4846-a1c1-d4f9fb40877e.png)
 
-* How to run the test suite
+-search for books
 
-* Services (job queues, cache servers, search engines, etc.)
+![image](https://user-images.githubusercontent.com/59819615/167575306-85058571-0093-41aa-ad68-d9ce3c4bf1b4.png)
 
-* Deployment instructions
+-learn more about the books
+![image](https://user-images.githubusercontent.com/59819615/167575390-7a43881a-6498-4635-8ae5-0c9763c8fc20.png)
 
-* ...
+-read books
+![image](https://user-images.githubusercontent.com/59819615/167575690-35084f44-d2c5-4d19-b5bb-f3da1dc9281a.png)
