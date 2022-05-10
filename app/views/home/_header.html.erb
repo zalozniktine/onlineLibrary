@@ -1,34 +1,37 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
   <div class="container-fluid">
-    <div class="btn btn-primary">
-      <%= link_to 'Home', root_path, :class => "btn" %> |
-    </div>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+
+    <%= link_to root_path do %>
+      <%= image_tag "ELibrary.png", height: 80, class: "height: 70px; margin-left: 4%;" %>
+    <% end %>
+    
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <%# <ul class="navbar-nav me-auto mb-2 mb-md-0">
       </ul> %>
       <form class="d-flex" style="margin: auto;" action="/search">
         <input class="form-control me-2" style="width: 70vh;" name="q" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success me-3" type="submit">Search</button>
+        <button class="btn btn-outline-light me-3" type="submit">Search</button>
       </form>
+
+      <%= link_to 'Home', root_path, class: "btn btn-info me-3" %> |
+      </div>
+      
 
     <% if user_signed_in? %>
 
-        <%= link_to "Settings", edit_user_registration_path, class: "btn btn-outline-success me-3" %>
-        <%= link_to "Sign out", destroy_user_session_path, method: :delete, class: "btn btn-outline-success me-3" %>
+        <%= link_to "Settings", edit_user_registration_path, class: "btn btn-outline-info me-3" %>
+        <%= link_to "Sign out", destroy_user_session_path, method: :delete, class: "btn btn-outline-info me-3" %>
 
         <% if @user.admin == 1 %>
 
-            <%= link_to "Admin", admin_path, class: "btn btn-outline-success me-3" %>
+            <%= link_to "Admin", admin_path, class: "btn btn-outline-light me-3" %>
 
         <% end %>
 
         <% else %>
 
-        <%= link_to "Sign in", new_user_session_path, class: "btn btn-outline-success me-3", style:"font-weight: bold;"%>
-        <%= link_to "Sign up", new_user_registration_path, class: "btn btn-outline-success me-3", style:"" %>
+        <%= link_to "Sign in", new_user_session_path, class: "btn btn-outline-info me-3", style:"font-weight: bold;"%>
+        <%= link_to "Sign up", new_user_registration_path, class: "btn btn-outline-info me-3", style:"" %>
 
       <% end %>
 

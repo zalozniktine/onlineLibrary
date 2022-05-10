@@ -1,32 +1,37 @@
-<h1> Search Results </h1>
 
- <% 
-        #Example.api_call
+    <h1 style="left:50%; text-align:center"> Search Results </h1>
+    <br>
 
-        response = RestClient.get('https://www.googleapis.com/books/v1/volumes?q='+params[:q]+'&filter=partial')
-        
-        books_array = JSON.parse(response)
-        #raise books_array.to_json
-        %>
+    <% 
+            #Example.api_call
 
-        <% books_array['items'].each do |book|%>
+            response = RestClient.get('https://www.googleapis.com/books/v1/volumes?q='+params[:q]+'&filter=partial')
+            
+            books_array = JSON.parse(response)
+            #raise books_array.to_json
+            %>
 
-        <div class="col-md-6">
-        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-            <div class="col p-4 d-flex flex-column position-static">
-            <small style="color:grey" class="d-inline-block mb-2"><% if (book['volumeInfo']['categories'])%><%= book['volumeInfo']['categories'].join(', ') %><% end %></small>
-            <h3 class="mb-0"><%= book['volumeInfo']['title'] %></h3>
-            <div class="mb-1 text-muted"><% if (book['volumeInfo']['authors']) %> <%= book['volumeInfo']['authors'][0] %><% end %>
+            <% books_array['items'].each do |book|%>
+
+            <div class="col-md-6">
+            <div style="left:50%" class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                <small style="color:grey" class="d-inline-block mb-2"><% if (book['volumeInfo']['categories'])%><%= book['volumeInfo']['categories'].join(', ') %><% end %></small>
+                <h3 class="mb-0"><%= book['volumeInfo']['title'] %></h3>
+                <div class="mb-1 text-muted"><% if (book['volumeInfo']['authors']) %> <%= book['volumeInfo']['authors'][0] %><% end %>
+                </div>
+                <p class="card-text mb-auto"><% if (book['volumeInfo']['description'])%><%= (book['volumeInfo']['description']).truncate(200) %><% end %></p>
+                <!--<a href="#" class="stretched-link">Continue reading</a>-->
+                <%= link_to "Continue reading", about_book_path(id: book["id"]), method: :get, class:"stretched-link"%>
+                </div>
+                <div class="col-auto d-lg-block">
+                    <img src="<% if (book['volumeInfo']['imageLinks']) %><%= book['volumeInfo']['imageLinks']['thumbnail'] %><% end %>" onerror="this.onerror=null; this.src='https://www.spl.org/Seattle-Public-Library/images/books-media/default-list-icons/default-book-icon.png'">
+                </div>
             </div>
-            <p class="card-text mb-auto"><% if (book['volumeInfo']['description'])%><%= (book['volumeInfo']['description']).truncate(200) %><% end %></p>
-            <!--<a href="#" class="stretched-link">Continue reading</a>-->
-            <%= link_to "Continue reading", about_book_path(id: book["id"]), method: :get, class:"stretched-link"%>
             </div>
-            <div class="col-auto d-lg-block">
-                <img src="<% if (book['volumeInfo']['imageLinks']) %><%= book['volumeInfo']['imageLinks']['thumbnail'] %><% end %>" onerror="this.onerror=null; this.src='https://www.spl.org/Seattle-Public-Library/images/books-media/default-list-icons/default-book-icon.png'">
-            </div>
-        </div>
-        </div>
 
-        <% end %>
+            <% end %>
+
+
+            
 
