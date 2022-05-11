@@ -67,6 +67,10 @@
             
             <% if (Loan.where( "book_id = ? AND user_id = ? AND loan_expiration_date > ?", @id, current_user.id, Date.today).count) == 1 %>
                 <%= link_to 'Read', preview_path(id: @id), method: :get, class:'btn btn-primary read' %>
+                <% elsif(Loan.where( "book_id = ? AND user_id != ? AND loan_expiration_date > ?", @id, current_user.id, Date.today).count) == 1%>
+                    The book is currently on loan.
+                    It will be available on: <% @loan = (Loan.where( "book_id = ? AND loan_expiration_date > ?", @id, Date.today).first)%> <%= @loan.loan_expiration_date.strftime("%d. %B %Y") %> 
+                    
                 <% else %>
                 <%=
                     button_to 'Borrow', {:controller => "loans", :action => "create", :book_id => @id, :user_id=> current_user.id, :loan_date=> Date.today, :loan_expiration_date=> 7.days.from_now} , :method=>:post, class:'btn btn-primary read'
