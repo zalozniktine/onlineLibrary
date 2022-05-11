@@ -4,8 +4,7 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable, :confirmable
 
-
-
+         
          def self.import(file)
           spreadsheet = open_spreadsheet(file)
           headers = spreadsheet.row(1)

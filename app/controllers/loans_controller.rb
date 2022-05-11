@@ -25,7 +25,7 @@ class LoansController < ApplicationController
 
     respond_to do |format|
       if @loan.save
-        format.html { redirect_to loan_url(@loan), notice: "Loan was successfully created." }
+        format.html { redirect_to about_book_path(id: @loan.book_id), notice: "You have successfully borrowed the book." }
         format.json { render :show, status: :created, location: @loan }
       else
         format.html { render :new, status: :unprocessable_entity }
@@ -65,6 +65,7 @@ class LoansController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def loan_params
-      params.require(:loan).permit(:book_id, :user_id, :loan_date, :loan_expiration_date)
+      #params.require(:loan).permit(:book_id, :user_id, :loan_date, :loan_expiration_date)
+      params.permit(:book_id, :user_id, :loan_date, :loan_expiration_date)
     end
 end
