@@ -59,31 +59,19 @@
             <img width="180px" src="<%= @cover %>">
             <br><br><br>
             <% link_to 'Read', preview_path(id: @id), method: :get, class:'btn btn-primary read' %>
+            
             <%
-            @loans = Loan.all
+            @loans = Loan.all 
             #check if there are any loans
-            if @loans
-                @loans.each do |loan|
-                    if loan.book_id == @id and loan.user_id == current_user.id %>
-                    <%= link_to 'Read', preview_path(id: @id), method: :get, class:'btn btn-primary read' %>
-                    <%else%>
-                    <%=
-                        button_to 'Borrow', {:controller => "loans", :action => "create", :book_id => @id, :user_id=> current_user.id, :loan_date=> Date.today, :loan_expiration_date=> 7.days.from_now} , :method=>:post, class:'btn btn-primary read'
-                    %>
-                    <%end%>
-                <%end%>
-            <% else %>
-            <%=
-                button_to 'Borrow', {:controller => "loans", :action => "create", :book_id => @id, :user_id=> current_user.id, :loan_date=> Date.today, :loan_expiration_date=> 7.days.from_now} , :method=>:post, class:'btn btn-primary read'
-            %>
-            <%
-            end
             %>
             
-            
-
-            <%# button_to 'Borrow', loans_path(Loan.new(book_id:@id,user_id:current_user.id,loan_date:Date.today,loan_expiration_date:7.days.from_now)), method: :post, data: { confirm: 'Are you sure?' }, class:'btn btn-primary read' %>
-            <%# button_to 'Borrow', {:controller => "loans", :action => "create", :book_id => @id, :user_id=> current_user.id, :loan_date=> Date.today, :loan_expiration_date=> 7.days.from_now} , :method=>:post, class:'btn btn-primary read'  %>
+            <% if (Loan.where( "book_id = ? AND user_id = ? AND loan_expiration_date > ?", @id, current_user.id, Date.today).count) == 1 %>
+                <%= link_to 'Read', preview_path(id: @id), method: :get, class:'btn btn-primary read' %>
+                <% else %>
+                <%=
+                    button_to 'Borrow', {:controller => "loans", :action => "create", :book_id => @id, :user_id=> current_user.id, :loan_date=> Date.today, :loan_expiration_date=> 7.days.from_now} , :method=>:post, class:'btn btn-primary read'
+                %>
+            <% end %>
 
         </div>
     

@@ -25,7 +25,7 @@ class LoansController < ApplicationController
 
     respond_to do |format|
       if @loan.save
-        format.html { redirect_to loan_url(@loan), notice: "Loan was successfully created." }
+        format.html { redirect_to about_book_path(id: @loan.book_id), notice: "You have successfully borrowed the book." }
         format.json { render :show, status: :created, location: @loan }
       else
         format.html { render :new, status: :unprocessable_entity }
