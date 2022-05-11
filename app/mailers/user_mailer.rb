@@ -4,7 +4,7 @@ class UserMailer < ApplicationMailer
     def pass_email
         @user = params[:user]
         #@url  = 'http://localhost:3000/users/sign_in'
-        @url  = 'https://online--books.herokuapp.com/users/sign_in'
+        @url  = 'https://online--books.herokuapp.com/users/password/new'
         mail(to: @user.email, subject: 'onlineLibrary')
     end
 end
