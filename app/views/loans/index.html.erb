@@ -8,91 +8,92 @@
       
     </div>
     <div class="col">
-      <table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
+        <table class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th>Cover image</th>
+            <th>Title</th>
+            <th>Loan expiration</th>
+            <th></th>
+            <th colspan="3"></th>
+          </tr>
+        </thead>
 
-  <tbody>
-    <% @loans.each do |loan| %>
-    <% 
-        #Example.api_call
+        <tbody>
+          <% @loans.each do |loan| %>
+          <% 
+              #Example.api_call
 
-        response = RestClient.get('https://www.googleapis.com/books/v1/volumes?q='+loan.book_id+'&projection=lite')
-        books_array = JSON.parse(response)
-        #raise books_array.to_json
-        %>
+              response = RestClient.get('https://www.googleapis.com/books/v1/volumes?q='+loan.book_id+'&projection=lite')
+              books_array = JSON.parse(response)
+              #raise books_array.to_json
+              %>
 
-        <% books_array['items'].each do |book|%>
-        
-        <% #poskrbi da se vedno pokaze knjiga z enakim id-jem
-        if book['id'] != params[:id]
-            next
-        end %> 
+              <% books_array['items'].each do |book|%>
+              
+              <% #poskrbi da se vedno pokaze knjiga z enakim id-jem
+              if book['id'] != params[:id]
+                  next
+              end %> 
 
-        <%
-        if book['volumeInfo']['imageLinks']
-            @cover = book['volumeInfo']['imageLinks']['thumbnail']
-        else
-            @cover = 'smiley.png'
-        end
-        if  book['volumeInfo']['description']
-            @description = book['volumeInfo']['description']
-        else
-            @description = 'no description'
-        end
-        if book['volumeInfo']['authors']
-            @author = book['volumeInfo']['authors'].join(', ')
-        else @author = 'unknown author'
-        end
-        
-        @title = book['volumeInfo']['title']
-        @id = book['id']
-        %>
-        <% end %>
+              <%
+              if book['volumeInfo']['imageLinks']
+                  @cover = book['volumeInfo']['imageLinks']['thumbnail']
+              else
+                  @cover = 'smiley.png'
+              end
+              if  book['volumeInfo']['description']
+                  @description = book['volumeInfo']['description']
+              else
+                  @description = 'no description'
+              end
+              if book['volumeInfo']['authors']
+                  @author = book['volumeInfo']['authors'].join(', ')
+              else @author = 'unknown author'
+              end
+              
+              @title = book['volumeInfo']['title']
+              @id = book['id']
+              %>
+              <% end %>
 
-    <% if loan.user_id == current_user.id %>
-      <tr>
+          <% if loan.user_id == current_user.id %>
+            <tr>
 
-     
+          
 
-        <td> 
-        <div class="container">
-            <div class="row">
-                <% books_array['items'].each do |book|%>
-                    <div class="col imag" style="margin-right: 50px;">
-                        <%= link_to about_book_path(id: book["id"]), method: :get do %>
-                            <div class="col imag" style="background-image: url(<% if (book['volumeInfo']['imageLinks']) %><%= book['volumeInfo']['imageLinks']['thumbnail'] %><% end %>); background-repeat:no-repeat;  width:200px; height:290px !important"></div>
-                        <% end %>
-                    </div>
-                <% end %>
-        </div>
-        </div>
-        </td>
-        <td> <div class="container">
-            <div class="row">
-                <% books_array['items'].each do |book|%>
-                    <div class="col imag">
-                    <%= book['volumeInfo']['title'].truncate(50) %>
-                    </div>
-                <% end %>
-        </div>
-        </div></td>
-        <td>Loan expiration: <%= loan.loan_expiration_date.strftime("%d. %B %Y") %></td>
-        
-        <td><% link_to 'Show', loan %></td>
-        <td><% link_to 'Edit', edit_loan_path(loan) %></td>
-        <td style="font-weight: bold;"><%= link_to 'Delete Loan', loan, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-      <% end %>
-    <% end %>
-  </tbody>
-</table>
+              <td> 
+              <div class="container">
+                  <div class="row">
+                      <% books_array['items'].each do |book|%>
+                          <div class="col imag" style="margin-right: 50px;">
+                              <%= link_to about_book_path(id: book["id"]), method: :get do %>
+                                  <div class="col imag" style="background-image: url(<% if (book['volumeInfo']['imageLinks']) %><%= book['volumeInfo']['imageLinks']['thumbnail'] %><% end %>); background-repeat:no-repeat;  width:200px; height:290px !important"></div>
+                              <% end %>
+                          </div>
+                      <% end %>
+              </div>
+              </div>
+              </td>
+              <td> <div class="container">
+                  <div class="row">
+                      <% books_array['items'].each do |book|%>
+                          <div class="col imag">
+                          <%= book['volumeInfo']['title'].truncate(50) %>
+                          </div>
+                      <% end %>
+              </div>
+              </div></td>
+              <td><%= loan.loan_expiration_date.strftime("%d. %B %Y") %></td>
+              
+              <td><% link_to 'Show', loan %></td>
+              <td><% link_to 'Edit', edit_loan_path(loan) %></td>
+              <td style="font-weight: bold;"><%= link_to 'Delete my Loan', loan, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-outline-danger me-3" %></td>
+            </tr>
+            <% end %>
+          <% end %>
+        </tbody>
+      </table>
     </div>
     <div class="col">
       
