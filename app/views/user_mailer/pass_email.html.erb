@@ -8,6 +8,7 @@
     <p>
       You have successfully signed up to onlineLibrary. Please change your password, by clicking on Forgot your password?.<br>
     </p>
+    <%= link_to 'Change my password', new_user_password_url(id: @user.id), method: :get %>
     <p>
       To reset password, just follow this link: <%= @url %>.
     </p>
