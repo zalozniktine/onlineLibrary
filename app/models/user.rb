@@ -22,6 +22,8 @@ class User < ApplicationRecord
   puts "Saving User with email #{user.email}"
   user.skip_reconfirmation!
   user.save!
+
+  
   #tule pride za posiljanje maila
   #za posiljanje maila ko importas userje
     
