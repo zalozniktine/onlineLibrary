@@ -10,7 +10,7 @@
     </p>
     <%= @reset = Devise.token_generator.generate(User, :reset_password_token) %>
 
-    <%= link_to 'Change my password', new_user_password_url(confirmation_token: @reset), method: :get %>
+    <%= link_to 'Change my password', new_user_password_url(confirmation_token: @reset), method: :post %>
     <% link_to 'Change my password', new_user_password_url(@reset), method: :get %>
 
     <p>
