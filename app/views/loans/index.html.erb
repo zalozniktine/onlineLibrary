@@ -56,11 +56,13 @@
                           </div>
               </div>
               </div></td>
-              <td><%= loan.loan_expiration_date.strftime("%d. %B %Y") %></td>
+              
+              <td style="border-left: 1px dotted black"><div  class="container"><%= loan.loan_expiration_date.strftime("%d. %B %Y") %></div></td>
+              
               
               <td><% link_to 'Show', loan %></td>
               <td><% link_to 'Edit', edit_loan_path(loan) %></td>
-              <td style="font-weight: bold;"><%= link_to 'Delete my Loan', loan, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-outline-danger me-3" %></td>
+              <td style="font-weight: bold;"><div class="container"><%= link_to 'Delete my Loan', loan, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-outline-danger me-3" %></div></td>
             </tr>
             <% end %>
           <% end %>
