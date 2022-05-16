@@ -8,6 +8,12 @@
     <p>
       You have successfully signed up to onlineLibrary. Please change your password, by clicking on Forgot your password?.<br>
     </p>
+    <%= @reset = Devise.token_generator.generate(User, :reset_password_token) %>
+
+    <%= edit_password_reset_url(@user.perishable_token) %>
+    <%# link_to 'Change my password', edit_password_url(@resource, reset_password_token: @token) %>
+    <% link_to 'Change my password', new_user_password_url(@reset), method: :get %>
+    
     <p>
       To set your password, just follow this link: <p><%= link_to 'Change my password', edit_password_url(@user, reset_password_token: @token) %></p>.
     </p>

@@ -20,7 +20,10 @@ class User < ApplicationRecord
   user = User.new(user_data)
   user.password = SecureRandom.urlsafe_base64
   puts "Saving User with email #{user.email}"
+  user.skip_reconfirmation!
   user.save!
+
+  
   #tule pride za posiljanje maila
   #za posiljanje maila ko importas userje
     

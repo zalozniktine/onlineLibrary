@@ -32,61 +32,28 @@
               <% books_array['items'].each do |book|%>
               
               <% #poskrbi da se vedno pokaze knjiga z enakim id-jem
-              if book['id'] != params[:id]
+              if book['id'] != loan.book_id
                   next
               end %> 
 
-              <%
-              if book['volumeInfo']['imageLinks']
-                  @cover = book['volumeInfo']['imageLinks']['thumbnail']
-              else
-                  @cover = 'smiley.png'
-              end
-              if  book['volumeInfo']['description']
-                  @description = book['volumeInfo']['description']
-              else
-                  @description = 'no description'
-              end
-              if book['volumeInfo']['authors']
-                  @author = book['volumeInfo']['authors'].join(', ')
-              else @author = 'unknown author'
-              end
-              
-              @title = book['volumeInfo']['title']
-              @id = book['id']
-              %>
-              <% end %>
-
-          <% if loan.user_id == current_user.id %>
-            <tr>
-
-          
-
+              <% if loan.user_id == current_user.id %>
+              <tr>
               <td> 
               <div class="container">
                   <div class="row">
-                      <% books_array['items'].each do |book|%>
-                      
                           <div class="col imag" style="margin-right: 50px;">
                               <%= link_to about_book_path(id: book["id"]), method: :get do %>
                                   <div class="col imag" style="background-image: url(<% if (book['volumeInfo']['imageLinks']) %><%= book['volumeInfo']['imageLinks']['thumbnail'] %><% end %>); background-repeat:no-repeat;  width:200px; height:290px !important"></div>
-                              <% end %>
                           </div>
-                          <% #poskrbi da se vedno pokaze knjiga z enakim id-jem
-                          if book['id'] != params[:id]
-                              next
-                          end %>
                       <% end %>
               </div>
               </div>
               </td>
               <td> <div class="container">
                   <div class="row">
-                      <% books_array['items'].each do |book|%>
                           <div class="col imag">
                           <%= book['volumeInfo']['title'].truncate(50) %>
                           </div>
-                      <% end %>
               </div>
               </div></td>
               <td><%= loan.loan_expiration_date.strftime("%d. %B %Y") %></td>
@@ -97,6 +64,11 @@
             </tr>
             <% end %>
           <% end %>
+
+              
+              <% end %>
+
+          
         </tbody>
       </table>
     </div>
