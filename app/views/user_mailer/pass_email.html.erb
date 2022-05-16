@@ -9,7 +9,7 @@
       You have successfully signed up to onlineLibrary. Please change your password, by clicking on Forgot your password?.<br>
     </p>
     <p>
-      To reset password, just follow this link: <%= @url %>.
+      To set your password, just follow this link: <p><%= link_to 'Change my password', edit_password_url(@user, reset_password_token: @token) %></p>.
     </p>
     <p>Thanks for joining and have a great day!</p>
   </body>
