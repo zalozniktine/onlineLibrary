@@ -20,13 +20,13 @@ default: &default
   # For details on connection pooling, see Rails configuration guide
   # https://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  port: 5434
+  port: 5432
 
 development:
   <<: *default
-  database: onlineLibrary_development
+  database: stackdb
 
-  port: 5434
+  port: 5432
   username: ape
   password: ape
 
@@ -62,13 +62,13 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: onlineLibrary_test
+  database: stackdb
 
   host: localhost
   encoding: unicode
   username: ape
   password: ape
-  port: 5434
+  port: 5432
 
 # As with config/credentials.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -91,7 +91,8 @@ test:
 # for a full overview on how database connection configuration can be specified.
 #
 production:
-  <<: *default
-  database: online--books_production
-  username: online--books
-  password: <%= ENV['ONLINE--BOOKS_DATABASE_PASSWORD'] %>
+  <<: *default  
+  database: stackdb
+  username: ape
+  password: IhRqvP29cYDl4CEAdJWjPPpGNzm7V7dy
+  port: 5432
